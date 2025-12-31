@@ -1,0 +1,346 @@
+High_Risk_Job,High_Risk_Domain,Alternative_Job,Alternative_Domain,Similarity
+Communications Manager,Communication & PR,Channel Marketing Manager,Communication & PR,0.7872
+Communications Manager,Communication & PR,Senior Marketing Manager,Communication & PR,0.7849
+Communications Manager,Communication & PR,Business Development Manager,Communication & PR,0.7744
+Data Collector,Data & IT,Information Architect,Data & IT,0.7251
+Data Collector,Data & IT,Scanner,Data & IT,0.7018
+Data Collector,Data & IT,Information Security Manager,Data & IT,0.6929
+Data Entry,Administrative & Clerical,Inside Sales Representative,Administrative & Clerical,0.6737
+Data Entry,Administrative & Clerical,Purchasing Assistant,Administrative & Clerical,0.6624
+Data Entry,Administrative & Clerical,It Business Analyst,Administrative & Clerical,0.6591
+Mail Clerk,Leadership & Strategy,Postal Clerk,Leadership & Strategy,0.8959
+Mail Clerk,Leadership & Strategy,Grocery Clerk,Leadership & Strategy,0.8583
+Mail Clerk,Leadership & Strategy,File Clerk,Leadership & Strategy,0.851
+Compliance Officer,Medical & Healthcare,Compliance Specialist,Medical & Healthcare,0.9303
+Compliance Officer,Medical & Healthcare,Credit Officer,Medical & Healthcare,0.8375
+Compliance Officer,Medical & Healthcare,Legal Officer,Medical & Healthcare,0.8232
+Chief Executive Officer (CEO),Supply Chain & Logistics,Chief Engineer,Supply Chain & Logistics,0.8218
+Chief Executive Officer (CEO),Supply Chain & Logistics,Pmo Manager,Supply Chain & Logistics,0.7865
+Chief Executive Officer (CEO),Supply Chain & Logistics,Editor In Chief,Supply Chain & Logistics,0.7863
+Therapist,Law Enforcement,Respiratory Therapist,Law Enforcement,0.7828
+Therapist,Law Enforcement,Specialist,Law Enforcement,0.769
+Therapist,Law Enforcement,Guidance Counselor,Law Enforcement,0.7676
+Chief Strategy Officer,Construction,Chief Development Officer,Construction,0.8704
+Chief Strategy Officer,Construction,Animal Control Officer,Construction,0.7719
+Chief Strategy Officer,Construction,Contracts Manager,Construction,0.7621
+Admin,Sales & Marketing,Senior Database Administrator,Sales & Marketing,0.8179
+Admin,Sales & Marketing,Account Administrator,Sales & Marketing,0.8147
+Admin,Sales & Marketing,Network Systems Administrator,Sales & Marketing,0.7988
+General Clerk,Hospitality,Payroll Clerk,Hospitality,0.8501
+General Clerk,Hospitality,Front Office Clerk,Hospitality,0.8408
+General Clerk,Hospitality,Medical Clerk,Hospitality,0.8098
+Mail Handler,Communication & PR,Operations Manager,Communication & PR,0.7053
+Mail Handler,Communication & PR,Supply Chain Coordinator,Communication & PR,0.6869
+Mail Handler,Communication & PR,Carrier,Communication & PR,0.6825
+Data Clerk,Data & IT,Sales Assistant,Data & IT,0.7645
+Data Clerk,Data & IT,Sales Supervisor,Data & IT,0.753
+Data Clerk,Data & IT,Information Architect,Data & IT,0.7392
+Data Entry Clerk,Administrative & Clerical,Inside Sales Representative,Administrative & Clerical,0.7253
+Data Entry Clerk,Administrative & Clerical,Insurance Verification Specialist,Administrative & Clerical,0.7166
+Data Entry Clerk,Administrative & Clerical,Purchasing Assistant,Administrative & Clerical,0.7156
+Data Entry Operator,Leadership & Strategy,Data Analyst,Leadership & Strategy,0.6768
+Data Entry Operator,Leadership & Strategy,File Clerk,Leadership & Strategy,0.6732
+Data Entry Operator,Leadership & Strategy,Integration Specialist,Leadership & Strategy,0.6679
+Data Entry Specialist,Medical & Healthcare,Investment Specialist,Medical & Healthcare,0.7532
+Data Entry Specialist,Medical & Healthcare,Recruitment Consultant,Medical & Healthcare,0.7464
+Data Entry Specialist,Medical & Healthcare,Junior Business Analyst,Medical & Healthcare,0.7395
+Medical Transcriptionist,Supply Chain & Logistics,Vascular Technician,Supply Chain & Logistics,0.7637
+Medical Transcriptionist,Supply Chain & Logistics,Facility Technician,Supply Chain & Logistics,0.7624
+Medical Transcriptionist,Supply Chain & Logistics,Communication Technician,Supply Chain & Logistics,0.7584
+Street Sweeper,Law Enforcement,House Cleaner,Law Enforcement,0.7657
+Street Sweeper,Law Enforcement,Operations Clerk,Law Enforcement,0.7461
+Street Sweeper,Law Enforcement,Jailer,Law Enforcement,0.737
+Supply Clerk,Construction,Procurement Clerk,Construction,0.8975
+Supply Clerk,Construction,Clerk,Construction,0.8714
+Supply Clerk,Construction,Inventory Control Clerk,Construction,0.8478
+Warehouse Worker,Sales & Marketing,Warehouse Manager,Sales & Marketing,0.9137
+Warehouse Worker,Sales & Marketing,Construction Laborer,Sales & Marketing,0.8328
+Warehouse Worker,Sales & Marketing,Operations Supervisor,Sales & Marketing,0.8102
+Web Search Evaluator,Hospitality,Seo Consultant,Hospitality,0.7298
+Web Search Evaluator,Hospitality,Validation Engineer,Hospitality,0.6522
+Web Search Evaluator,Hospitality,Asp.Net Developer,Hospitality,0.6503
+Development Manager,Communication & PR,Software Manager,Communication & PR,0.8621
+Development Manager,Communication & PR,Business Development Manager,Communication & PR,0.8417
+Development Manager,Communication & PR,Infrastructure Project Manager,Communication & PR,0.8267
+Chief Security Officer,Administrative & Clerical,Procurement Officer,Administrative & Clerical,0.8136
+Chief Security Officer,Administrative & Clerical,Information Security Consultant,Administrative & Clerical,0.7984
+Chief Security Officer,Administrative & Clerical,Fire Marshal,Administrative & Clerical,0.7947
+Mail Processing,Medical & Healthcare,Post Office,Medical & Healthcare,0.8008
+Mail Processing,Medical & Healthcare,Order Processor,Medical & Healthcare,0.7151
+Mail Processing,Medical & Healthcare,Content Producer,Medical & Healthcare,0.6973
+Director Of Operations,Supply Chain & Logistics,Director Of Manufacturing,Supply Chain & Logistics,0.8507
+Director Of Operations,Supply Chain & Logistics,Purchasing Director,Supply Chain & Logistics,0.8344
+Director Of Operations,Supply Chain & Logistics,Director Of Purchasing,Supply Chain & Logistics,0.8205
+Direct Support Professional,Law Enforcement,Computer Support Specialist,Law Enforcement,0.8506
+Direct Support Professional,Law Enforcement,Technical Support Agent,Law Enforcement,0.7934
+Direct Support Professional,Law Enforcement,Specialist,Law Enforcement,0.7843
+Chief Communications Officer,Construction,Chief Development Officer,Construction,0.8338
+Chief Communications Officer,Construction,Technical Director,Construction,0.8143
+Chief Communications Officer,Construction,Administrative Manager,Construction,0.8079
+Administrative Clerk,Sales & Marketing,Mailroom Clerk,Sales & Marketing,0.857
+Administrative Clerk,Sales & Marketing,Administrative Analyst,Sales & Marketing,0.8054
+Administrative Clerk,Sales & Marketing,Senior Database Administrator,Sales & Marketing,0.7922
+General Office Clerk,Communication & PR,Receiving Clerk,Communication & PR,0.8583
+General Office Clerk,Communication & PR,Unit Clerk,Communication & PR,0.8393
+General Office Clerk,Communication & PR,Staff Assistant,Communication & PR,0.7639
+Transcriber,Data & IT,Scanner,Data & IT,0.7315
+Transcriber,Data & IT,Communicator,Data & IT,0.7224
+Transcriber,Data & IT,Certified Professional Coder,Data & IT,0.718
+Sql Programmer,Administrative & Clerical,Database Programmer,Administrative & Clerical,0.9041
+Sql Programmer,Administrative & Clerical,Sas Programmer,Administrative & Clerical,0.8064
+Sql Programmer,Administrative & Clerical,Senior Programmer,Administrative & Clerical,0.7805
+Vba Developer,Leadership & Strategy,Dot Net Developer,Leadership & Strategy,0.7851
+Vba Developer,Leadership & Strategy,Visual Designer,Leadership & Strategy,0.767
+Vba Developer,Leadership & Strategy,Software Programmer,Leadership & Strategy,0.7409
+Medical Scribe,Medical & Healthcare,Editor,Medical & Healthcare,0.7529
+Medical Scribe,Medical & Healthcare,Surgical Physician Assistant,Medical & Healthcare,0.7448
+Medical Scribe,Medical & Healthcare,Flight Nurse,Medical & Healthcare,0.7384
+Special Agent,Supply Chain & Logistics,Insurance Agent,Supply Chain & Logistics,0.8166
+Special Agent,Supply Chain & Logistics,Ticket Agent,Supply Chain & Logistics,0.8117
+Special Agent,Supply Chain & Logistics,Intelligence Specialist,Supply Chain & Logistics,0.7889
+Purchasing Clerk,Law Enforcement,Operations Clerk,Law Enforcement,0.8652
+Purchasing Clerk,Law Enforcement,Desk Clerk,Law Enforcement,0.8533
+Purchasing Clerk,Law Enforcement,Warranty Clerk,Law Enforcement,0.8515
+Telemarketer,Sales & Marketing,Customer Assistant,Sales & Marketing,0.7894
+Telemarketer,Sales & Marketing,Commercial Banker,Sales & Marketing,0.7743
+Telemarketer,Sales & Marketing,Survey Technician,Sales & Marketing,0.7729
+Bakery Manager,Hospitality,Food Service Specialist,Hospitality,0.8148
+Bakery Manager,Hospitality,Food Service Supervisor,Hospitality,0.8134
+Bakery Manager,Hospitality,Hospitality Manager,Hospitality,0.81
+Banquet Manager,Communication & PR,Chef Manager,Communication & PR,0.8289
+Banquet Manager,Communication & PR,Hotel Assistant Manager,Communication & PR,0.7986
+Banquet Manager,Communication & PR,Floor Manager,Communication & PR,0.7926
+Clerk Typist,Data & IT,Ward Clerk,Data & IT,0.7607
+Clerk Typist,Data & IT,Sales Assistant,Data & IT,0.7521
+Clerk Typist,Data & IT,Sales Supervisor,Data & IT,0.7355
+Assistant,Administrative & Clerical,Unit Assistant,Administrative & Clerical,0.9121
+Assistant,Administrative & Clerical,Assistant Director,Administrative & Clerical,0.8991
+Assistant,Administrative & Clerical,Assistant Administrator,Administrative & Clerical,0.8971
+Business Relationship Manager,Leadership & Strategy,Business Management Consultant,Leadership & Strategy,0.8731
+Business Relationship Manager,Leadership & Strategy,Customer Support Manager,Leadership & Strategy,0.8209
+Business Relationship Manager,Leadership & Strategy,Business Development Coordinator,Leadership & Strategy,0.8149
+Distribution Manager,Medical & Healthcare,Distribution Clerk,Medical & Healthcare,0.813
+Distribution Manager,Medical & Healthcare,Facilities Manager,Medical & Healthcare,0.8112
+Distribution Manager,Medical & Healthcare,Facility Maintenance Manager,Medical & Healthcare,0.7973
+Administrative Assistant,Supply Chain & Logistics,Assistant Manager,Supply Chain & Logistics,0.8671
+Administrative Assistant,Supply Chain & Logistics,Training Administrator,Supply Chain & Logistics,0.8403
+Administrative Assistant,Supply Chain & Logistics,Human Resources Executive,Supply Chain & Logistics,0.8161
+Administrative Secretary,Law Enforcement,Executive Administrator,Law Enforcement,0.8217
+Administrative Secretary,Law Enforcement,Chief Of Staff,Law Enforcement,0.8195
+Administrative Secretary,Law Enforcement,Human Resources Coordinator,Law Enforcement,0.7993
+Clerical Assistant,Construction,Educational Assistant,Construction,0.8211
+Clerical Assistant,Construction,Paralegal Assistant,Construction,0.8162
+Clerical Assistant,Construction,Office Coordinator,Construction,0.7882
+Executive Administrative Assistant,Sales & Marketing,Graduate Assistant,Sales & Marketing,0.8688
+Executive Administrative Assistant,Sales & Marketing,Administrative Analyst,Sales & Marketing,0.8415
+Executive Administrative Assistant,Sales & Marketing,Senior Database Administrator,Sales & Marketing,0.813
+Order Filler,Hospitality,Mail Sorter,Hospitality,0.7165
+Order Filler,Hospitality,Warehouse Packer,Hospitality,0.7113
+Order Filler,Hospitality,Payroll Clerk,Hospitality,0.7108
+Records Clerk,Communication & PR,Receiving Clerk,Communication & PR,0.8456
+Records Clerk,Communication & PR,Unit Clerk,Communication & PR,0.8235
+Records Clerk,Communication & PR,Revenue Accountant,Communication & PR,0.7649
+Scribe,Data & IT,Payroll Processor,Data & IT,0.7208
+Scribe,Data & IT,Classroom Assistant,Data & IT,0.7159
+Scribe,Data & IT,Scanner,Data & IT,0.7133
+Dishwasher,Leadership & Strategy,Sandwich Maker,Leadership & Strategy,0.7702
+Dishwasher,Leadership & Strategy,Kitchen Assistant,Leadership & Strategy,0.7223
+Dishwasher,Leadership & Strategy,Industrial Cleaner,Leadership & Strategy,0.7182
+Digital Project Manager,Medical & Healthcare,Marketing Project Manager,Medical & Healthcare,0.8655
+Digital Project Manager,Medical & Healthcare,Healthcare Project Manager,Medical & Healthcare,0.833
+Digital Project Manager,Medical & Healthcare,Digital Strategist,Medical & Healthcare,0.7855
+Technical Project Manager,Supply Chain & Logistics,Clinical Project Manager,Supply Chain & Logistics,0.8601
+Technical Project Manager,Supply Chain & Logistics,Engineering Program Manager,Supply Chain & Logistics,0.8531
+Technical Project Manager,Supply Chain & Logistics,Management Engineer,Supply Chain & Logistics,0.8345
+Grocer,Law Enforcement,Jailer,Law Enforcement,0.7393
+Grocer,Law Enforcement,Groomer,Law Enforcement,0.7168
+Grocer,Law Enforcement,Groundskeeper,Law Enforcement,0.7075
+Finance Officer,Construction,Finance Manager,Construction,0.9219
+Finance Officer,Construction,Finance Analyst,Construction,0.8945
+Finance Officer,Construction,Financial Analyst,Construction,0.8665
+Word Processor,Sales & Marketing,Web Content Editor,Sales & Marketing,0.7055
+Word Processor,Sales & Marketing,Process Manager,Sales & Marketing,0.6967
+Word Processor,Sales & Marketing,Office Assistant,Sales & Marketing,0.6945
+Market Research Interviewer,Hospitality,Economist,Hospitality,0.7424
+Market Research Interviewer,Hospitality,Digital Marketing Manager,Hospitality,0.7373
+Market Research Interviewer,Hospitality,Seo Consultant,Hospitality,0.7349
+Pl Sql Developer,Communication & PR,Oracle Database Developer,Communication & PR,0.8213
+Pl Sql Developer,Communication & PR,Computer Programmer,Communication & PR,0.7185
+Pl Sql Developer,Communication & PR,Software Engineer,Communication & PR,0.7085
+Quantitative Developer,Data & IT,C Developer,Data & IT,0.8149
+Quantitative Developer,Data & IT,Programmer,Data & IT,0.7935
+Quantitative Developer,Data & IT,Development Engineer,Data & IT,0.7605
+Statistical Programmer,Administrative & Clerical,Senior Programmer,Administrative & Clerical,0.8073
+Statistical Programmer,Administrative & Clerical,Sas Programmer,Administrative & Clerical,0.8035
+Statistical Programmer,Administrative & Clerical,Database Programmer,Administrative & Clerical,0.7954
+Tableau Developer,Leadership & Strategy,Web Developer,Leadership & Strategy,0.7305
+Tableau Developer,Leadership & Strategy,Dot Net Developer,Leadership & Strategy,0.708
+Tableau Developer,Leadership & Strategy,Rails Developer,Leadership & Strategy,0.7034
+Data Modeler,Medical & Healthcare,Database Architect,Medical & Healthcare,0.7924
+Data Modeler,Medical & Healthcare,Collection Representative,Medical & Healthcare,0.6951
+Data Modeler,Medical & Healthcare,Tester,Medical & Healthcare,0.6898
+Database Analyst,Supply Chain & Logistics,Business Intelligence Analyst,Supply Chain & Logistics,0.8698
+Database Analyst,Supply Chain & Logistics,Software Analyst,Supply Chain & Logistics,0.8399
+Database Analyst,Supply Chain & Logistics,Sap Analyst,Supply Chain & Logistics,0.8316
+Database Developer,Law Enforcement,DBA,Law Enforcement,0.8303
+Database Developer,Law Enforcement,Sql Dba,Law Enforcement,0.8192
+Database Developer,Law Enforcement,Sql Developer,Law Enforcement,0.8137
+Etl Developer,Construction,.Net Developer,Construction,0.7894
+Etl Developer,Construction,Edi Developer,Construction,0.7802
+Etl Developer,Construction,Application Developer,Construction,0.7678
+Hadoop Developer,Sales & Marketing,Mainframe Developer,Sales & Marketing,0.7322
+Hadoop Developer,Sales & Marketing,Software Architect,Sales & Marketing,0.7127
+Hadoop Developer,Sales & Marketing,Sap Developer,Sales & Marketing,0.699
+Sql Analyst,Hospitality,Database Specialist,Hospitality,0.8053
+Sql Analyst,Hospitality,It Analyst,Hospitality,0.7985
+Sql Analyst,Hospitality,Sourcing Analyst,Hospitality,0.7878
+Procurement Assistant,Communication & PR,Assistant Designer,Communication & PR,0.811
+Procurement Assistant,Communication & PR,Program Assistant,Communication & PR,0.8045
+Procurement Assistant,Communication & PR,Surgical Assistant,Communication & PR,0.7986
+Warehouse Associate,Administrative & Clerical,Freight Associate,Administrative & Clerical,0.8431
+Warehouse Associate,Administrative & Clerical,Production Associate,Administrative & Clerical,0.8381
+Warehouse Associate,Administrative & Clerical,Store Assistant,Administrative & Clerical,0.7937
+Press Operator,Leadership & Strategy,Console Operator,Leadership & Strategy,0.7886
+Press Operator,Leadership & Strategy,Field Operator,Leadership & Strategy,0.727
+Press Operator,Leadership & Strategy,Operations Specialist,Leadership & Strategy,0.7144
+Printing Press Operator,Supply Chain & Logistics,Screen Printer,Supply Chain & Logistics,0.7625
+Printing Press Operator,Supply Chain & Logistics,Packaging Machine Operator,Supply Chain & Logistics,0.7084
+Printing Press Operator,Supply Chain & Logistics,News Producer,Supply Chain & Logistics,0.6898
+Automation Test Engineer,Law Enforcement,Manual Tester,Law Enforcement,0.7948
+Automation Test Engineer,Law Enforcement,Deployment Engineer,Law Enforcement,0.7834
+Automation Test Engineer,Law Enforcement,Component Engineer,Law Enforcement,0.7654
+Automation Tester,Construction,Test Coordinator,Construction,0.7738
+Automation Tester,Construction,Performance Test Engineer,Construction,0.7541
+Automation Tester,Construction,Lab Technician,Construction,0.714
+QA Automation Engineer,Sales & Marketing,Qa Engineer,Sales & Marketing,0.9167
+QA Automation Engineer,Sales & Marketing,System Engineer,Sales & Marketing,0.7697
+QA Automation Engineer,Sales & Marketing,Quality Engineer,Sales & Marketing,0.7684
+Tax Preparer,Hospitality,Accountant,Hospitality,0.7842
+Tax Preparer,Hospitality,Fund Accountant,Hospitality,0.7696
+Tax Preparer,Hospitality,Treasury Accountant,Hospitality,0.7581
+Associate,Communication & PR,Accounting Associate,Communication & PR,0.8738
+Associate,Communication & PR,Private Equity Associate,Communication & PR,0.8291
+Associate,Communication & PR,Associate Software Engineer,Communication & PR,0.8278
+Chief Learning Officer,Data & IT,Chief Administrative Officer,Data & IT,0.8907
+Chief Learning Officer,Data & IT,Chief Of Police,Data & IT,0.854
+Chief Learning Officer,Data & IT,Administrative Specialist,Data & IT,0.826
+Web Project Manager,Administrative & Clerical,Creative Project Manager,Administrative & Clerical,0.8662
+Web Project Manager,Administrative & Clerical,Commercial Project Manager,Administrative & Clerical,0.8494
+Web Project Manager,Administrative & Clerical,Web Application Developer,Administrative & Clerical,0.8184
+Medical Coding Specialist,Leadership & Strategy,Coding Specialist,Leadership & Strategy,0.9291
+Medical Coding Specialist,Leadership & Strategy,Medical Office Specialist,Leadership & Strategy,0.8684
+Medical Coding Specialist,Leadership & Strategy,Medical Administrative Specialist,Leadership & Strategy,0.8478
+Front Desk,Medical & Healthcare,Front Desk Coordinator,Medical & Healthcare,0.8476
+Front Desk,Medical & Healthcare,Office Receptionist,Medical & Healthcare,0.7193
+Front Desk,Medical & Healthcare,Tower Technician,Medical & Healthcare,0.7042
+Credit Manager,Supply Chain & Logistics,Credit Risk Analyst,Supply Chain & Logistics,0.8486
+Credit Manager,Supply Chain & Logistics,Business Manager,Supply Chain & Logistics,0.8017
+Credit Manager,Supply Chain & Logistics,Portfolio Manager,Supply Chain & Logistics,0.788
+Advertising Manager,Law Enforcement,Product Marketing Manager,Law Enforcement,0.8817
+Advertising Manager,Law Enforcement,Advertising Sales,Law Enforcement,0.8471
+Advertising Manager,Law Enforcement,Retail Marketing Manager,Law Enforcement,0.8314
+Phone Sales,Sales & Marketing,Pharmaceutical Sales,Sales & Marketing,0.7814
+Phone Sales,Sales & Marketing,Retail Clerk,Sales & Marketing,0.7299
+Phone Sales,Sales & Marketing,Sales Operations Analyst,Sales & Marketing,0.7124
+Telesales Representative,Hospitality,Claims Representative,Hospitality,0.7557
+Telesales Representative,Hospitality,Registered Medical Assistant,Hospitality,0.7444
+Telesales Representative,Hospitality,Food Service Specialist,Hospitality,0.735
+Accounting Clerk,Communication & PR,Accounting Administrator,Communication & PR,0.8903
+Accounting Clerk,Communication & PR,Accounting Associate,Communication & PR,0.878
+Accounting Clerk,Communication & PR,Accounting Technician,Communication & PR,0.8773
+Administrative Associate,Data & IT,Chief Administrative Officer,Data & IT,0.8711
+Administrative Associate,Data & IT,Communications Associate,Data & IT,0.8378
+Administrative Associate,Data & IT,Associate Consultant,Data & IT,0.829
+Administrative Coordinator,Administrative & Clerical,Hr Coordinator,Administrative & Clerical,0.9016
+Administrative Coordinator,Administrative & Clerical,Human Resources Specialist,Administrative & Clerical,0.8195
+Administrative Coordinator,Administrative & Clerical,Assistant Administrator,Administrative & Clerical,0.8153
+Corporate Receptionist,Leadership & Strategy,Corporate Lawyer,Leadership & Strategy,0.7666
+Corporate Receptionist,Leadership & Strategy,Housekeeper,Leadership & Strategy,0.7409
+Corporate Receptionist,Leadership & Strategy,Postal Clerk,Leadership & Strategy,0.7295
+Desk Receptionist,Medical & Healthcare,Office Receptionist,Medical & Healthcare,0.9005
+Desk Receptionist,Medical & Healthcare,Hotel Receptionist,Medical & Healthcare,0.8224
+Desk Receptionist,Medical & Healthcare,Store Clerk,Medical & Healthcare,0.766
+Executive Secretary,Supply Chain & Logistics,Assistant Manager,Supply Chain & Logistics,0.7987
+Executive Secretary,Supply Chain & Logistics,Staff Attorney,Supply Chain & Logistics,0.7897
+Executive Secretary,Supply Chain & Logistics,Business Manager,Supply Chain & Logistics,0.7747
+Front Desk Clerk,Law Enforcement,Desk Clerk,Law Enforcement,0.8885
+Front Desk Clerk,Law Enforcement,Operations Clerk,Law Enforcement,0.8424
+Front Desk Clerk,Law Enforcement,Receptionist,Law Enforcement,0.7831
+Front Desk Receptionist,Construction,Clinic Receptionist,Construction,0.8835
+Front Desk Receptionist,Construction,Front Desk Assistant,Construction,0.8566
+Front Desk Receptionist,Construction,Office Coordinator,Construction,0.7853
+Front Office Receptionist,Sales & Marketing,Front Desk Attendant,Sales & Marketing,0.8501
+Front Office Receptionist,Sales & Marketing,Front Desk Supervisor,Sales & Marketing,0.8177
+Front Office Receptionist,Sales & Marketing,Customer Assistant,Sales & Marketing,0.8097
+Order Clerk,Communication & PR,Receiving Clerk,Communication & PR,0.9134
+Order Clerk,Communication & PR,Unit Clerk,Communication & PR,0.8825
+Order Clerk,Communication & PR,Retail Supervisor,Communication & PR,0.7695
+Medical Coder,Data & IT,Certified Professional Coder,Data & IT,0.8755
+Medical Coder,Data & IT,Medical Billing Specialist,Data & IT,0.7908
+Medical Coder,Data & IT,Patient Care Technician,Data & IT,0.7724
+Android Developer,Medical & Healthcare,Mobile Application Developer,Medical & Healthcare,0.8717
+Android Developer,Medical & Healthcare,Developer,Medical & Healthcare,0.8556
+Android Developer,Medical & Healthcare,Sharepoint Developer,Medical & Healthcare,0.841
+Ios Developer,Supply Chain & Logistics,Mobile Developer,Supply Chain & Logistics,0.8733
+Ios Developer,Supply Chain & Logistics,Javascript Developer,Supply Chain & Logistics,0.7417
+Ios Developer,Supply Chain & Logistics,Product Development Manager,Supply Chain & Logistics,0.7379
+Photo Retoucher,Sales & Marketing,Sports Photographer,Sales & Marketing,0.7726
+Photo Retoucher,Sales & Marketing,Director Of Photography,Sales & Marketing,0.7695
+Photo Retoucher,Sales & Marketing,Fingerprint Technician,Sales & Marketing,0.6917
+Full Charge Bookkeeper,Hospitality,Accounting Assistant,Hospitality,0.7682
+Full Charge Bookkeeper,Hospitality,Accounting Consultant,Hospitality,0.7575
+Full Charge Bookkeeper,Hospitality,Fund Accountant,Hospitality,0.7566
+Epic Analyst,Data & IT,Epic Trainer,Data & IT,0.8435
+Epic Analyst,Data & IT,Media Analyst,Data & IT,0.7819
+Epic Analyst,Data & IT,Business Analyst Manager,Data & IT,0.7789
+It Project Manager,Administrative & Clerical,Creative Project Manager,Administrative & Clerical,0.8785
+It Project Manager,Administrative & Clerical,Information Technology Manager,Administrative & Clerical,0.8776
+It Project Manager,Administrative & Clerical,Commercial Project Manager,Administrative & Clerical,0.8664
+Software Project Manager,Leadership & Strategy,Implementation Project Manager,Leadership & Strategy,0.9221
+Software Project Manager,Leadership & Strategy,Erp Project Manager,Leadership & Strategy,0.9046
+Software Project Manager,Leadership & Strategy,Program Manager,Leadership & Strategy,0.8468
+Technology Project Manager,Medical & Healthcare,Marketing Project Manager,Medical & Healthcare,0.8976
+Technology Project Manager,Medical & Healthcare,Healthcare Project Manager,Medical & Healthcare,0.8702
+Technology Project Manager,Medical & Healthcare,Facilities Manager,Medical & Healthcare,0.8072
+Cobol Developer,Supply Chain & Logistics,Cognos Developer,Supply Chain & Logistics,0.8563
+Cobol Developer,Supply Chain & Logistics,Mobile Developer,Supply Chain & Logistics,0.7485
+Cobol Developer,Supply Chain & Logistics,Rpg Programmer,Supply Chain & Logistics,0.741
+Quantitative Research Analyst,Construction,Financial Analyst,Construction,0.8226
+Quantitative Research Analyst,Construction,Intelligence Analyst,Construction,0.8205
+Quantitative Research Analyst,Construction,Finance Analyst,Construction,0.8041
+Sas Developer,Hospitality,Drupal Developer,Hospitality,0.7779
+Sas Developer,Hospitality,Front End Developer,Hospitality,0.7752
+Sas Developer,Hospitality,Net Developer,Hospitality,0.765
+Data Architect,Administrative & Clerical,Database Programmer,Administrative & Clerical,0.8102
+Data Architect,Administrative & Clerical,Business Architect,Administrative & Clerical,0.7998
+Data Architect,Administrative & Clerical,Computer Engineer,Administrative & Clerical,0.7463
+Database Designer,Leadership & Strategy,Visual Designer,Leadership & Strategy,0.7896
+Database Designer,Leadership & Strategy,Game Designer,Leadership & Strategy,0.7856
+Database Designer,Leadership & Strategy,Pcb Designer,Leadership & Strategy,0.7731
+Database Engineer,Medical & Healthcare,Oracle Developer,Medical & Healthcare,0.8074
+Database Engineer,Medical & Healthcare,Database Architect,Medical & Healthcare,0.7905
+Database Engineer,Medical & Healthcare,Product Engineer,Medical & Healthcare,0.7317
+Gis Developer,Supply Chain & Logistics,Mobile Developer,Supply Chain & Logistics,0.7836
+Gis Developer,Supply Chain & Logistics,Rpg Programmer,Supply Chain & Logistics,0.7687
+Gis Developer,Supply Chain & Logistics,Sql Database Developer,Supply Chain & Logistics,0.7671
+Informatica Developer,Law Enforcement,Perl Developer,Law Enforcement,0.742
+Informatica Developer,Law Enforcement,Development Officer,Law Enforcement,0.7235
+Informatica Developer,Law Enforcement,Principal Software Engineer,Law Enforcement,0.7158
+Ui Developer,Construction,Application Developer,Construction,0.8858
+Ui Developer,Construction,Wordpress Developer,Construction,0.8516
+Ui Developer,Construction,.Net Developer,Construction,0.7982
+Ux Developer,Sales & Marketing,Entry Level Developer,Sales & Marketing,0.8565
+Ux Developer,Sales & Marketing,Report Developer,Sales & Marketing,0.8035
+Ux Developer,Sales & Marketing,Sap Developer,Sales & Marketing,0.7923
+Stenographer,Hospitality,Medical Examiner,Hospitality,0.7585
+Stenographer,Hospitality,Certified Surgical Technologist,Hospitality,0.715
+Stenographer,Hospitality,Medical Clerk,Hospitality,0.7133
+Allocation Analyst,Communication & PR,Statistical Analyst,Communication & PR,0.8392
+Allocation Analyst,Communication & PR,Performance Analyst,Communication & PR,0.8355
+Allocation Analyst,Communication & PR,Implementation Analyst,Communication & PR,0.8182
+Equipment Engineer,Hospitality,Heavy Equipment Operator,Hospitality,0.8756
+Equipment Engineer,Hospitality,Facilities Engineer,Hospitality,0.8699
+Equipment Engineer,Hospitality,Transmission Engineer,Hospitality,0.8519
+Clinical Systems Analyst,Medical & Healthcare,Actuarial Analyst,Medical & Healthcare,0.7806
+Clinical Systems Analyst,Medical & Healthcare,Operations Research Analyst,Medical & Healthcare,0.7648
+Clinical Systems Analyst,Medical & Healthcare,Healthcare Project Manager,Medical & Healthcare,0.757

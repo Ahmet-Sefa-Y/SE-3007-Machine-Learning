@@ -1,173 +1,130 @@
-# SE-3007-Machine-Learning# 🤖 AI Impact on Jobs
-### Predicting Job Risk, Resilience & Future Career Alternatives
+# 🚀 AI Impact on Jobs
+## Predicting AI Risk, Job Resilience, and Safer Career Alternatives
 
-This project analyzes how **Artificial Intelligence (AI) impacts different professions** and provides a **fully reproducible, end-to-end machine learning pipeline**.
+This repository contains an end-to-end machine learning workflow that estimates how strongly AI may affect different jobs, groups jobs into risk levels, computes an interpretable resilience score, and recommends lower-risk alternatives for high-risk roles.
 
-Instead of focusing only on job loss, it answers:
-
-> **Which jobs are at risk, how resilient they are to AI, and which safer alternatives exist.**
-
----
-
-## 📌 Problem Statement
-
-AI is rapidly transforming the labor market. While some jobs are highly automatable, others remain resilient or evolve alongside AI.
-
-The objectives of this project are:
-
-- Predict the **degree of AI impact** on professions (regression)
-- Classify jobs into **risk categories** (classification)
-- Quantify **job resilience** against AI (index/score)
-- Recommend **lower-risk alternative jobs** for high-risk professions (hybrid recommender)
+**Main questions this project answers:**
+- How much AI impact (%) is expected for a given job?
+- Is the job **Low / Medium / High** risk?
+- How resilient is the job to AI disruption?
+- If a job is high-risk, what **safer alternatives** are similar?
 
 ---
 
-## 📂 Dataset
+## 📦 What’s Inside (Outputs You Get)
 
-Main input file:
-- `My_Data.csv`
+| File | What it contains |
+|---|---|
+| `regression_output.csv` | Predicted AI impact score per job (`Predicted_AI_Impact`) |
+| `final_risk_predictions.csv` | Risk labels + model predictions (`Risk_Category`, `Model_Prediction`) |
+| `job_model_resilience_index.csv` | Resilience score & level (`Job_Resilience_Score`, `Resilience_Level`) |
+| `final_hybrid_recommendations.csv` | Alternative job recommendations for high-risk jobs |
 
-The dataset contains job-level information with attributes such as:
+Visuals included:
+- `Actual vs Predicted.png`
+- `Resilience Distribution.png`
+- `Top-10 Resilient Jobs.png`
 
-- **Job titiles** — Job name *(kept as the dataset column name)*
-- **Domain** — Professional field
-- **Tasks** — Number of core tasks
-- **AI models** — Relevant AI tools/models count
-- **AI_Workload_Ratio** — Share of tasks automatable by AI
-- **AI Impact** — Ground-truth AI impact percentage
-
----
-
-## 🧭 Project Pipeline (End-to-End)
-
-This repository includes multiple notebooks that together form the pipeline:
-
-1. **EDA (optional)**  
-   - `eda.ipynb`
-
-2. **AI Impact Prediction (Regression)**  
-   - `AI_Risk_Prediction_Model.ipynb`  
-   Output: `regression_output.csv`
-
-3. **Job Vulnerability Classification (Low / Medium / High)**  
-   - `Job_Vulnerability_Classification.ipynb`  
-   Output: `final_risk_predictions.csv`
-
-4. **Job Resilience Index (Interpretability Layer)**  
-   - `Sector_AI_Resilience_Index.ipynb`  
-   Output: `job_model_resilience_index.csv`
-
-5. **Hybrid Recommendation System (Future-Proof Alternatives)**  
-   - `Future-Proof_Skills_Recommender.ipynb`  
-   Output: `final_hybrid_recommendations.csv`
+Presentation:
+- `AI Impact on Jobs Predicting Job Risk & Future Skills.pptx`
+- `AI Impact on Jobs Predicting Job Risk & Future Skills (1).pdf`
 
 ---
 
-## 🧹 Data Preprocessing
+## 🗂️ Dataset (Verified)
 
-Key preprocessing steps:
+✅ The main dataset file is **`My_Data.csv`**.
 
-- Removal of `%` symbols from `AI Impact`
-- Conversion to numeric format
-- Handling missing and infinite values
-- Feature scaling using **StandardScaler**
-- One-hot encoding for categorical variables when needed
-- Post-processing regression outputs using clipping (`0–100`) for interpretability
+It contains **4706** rows and the following columns (column names kept as-is):
+
+| Column | Description |
+|---|---|
+| `Job titiles` | Job name *(note: dataset has a typo in the column name)* |
+| `Domain` | Job domain / field |
+| `Tasks` | Number of core tasks |
+| `AI models` | Count/measure of relevant AI models/tools |
+| `AI_Workload_Ratio` | Share of workload automatable by AI |
+| `AI Impact` | Ground-truth AI impact percentage (stored like `85%`) |
+
+> After preprocessing, **4699 jobs** remain in the modeling pipeline (7 records are removed during processing), and the outputs are produced for these 4699 jobs.
 
 ---
 
-## 🧠 Models & Methodology
+## 🧠 Method Summary
 
-### 1️⃣ AI Impact Prediction (Regression)
-
-**Model:** Random Forest Regressor  
-**Goal:** Predict AI impact as a continuous value (0–100%)
+### 1) AI Impact Prediction (Regression)
+- **Goal:** Predict a continuous **AI impact score (0–100)**.
+- **Model:** Random Forest Regressor
+- **Output column:** `Predicted_AI_Impact`
+- **Saved to:** `regression_output.csv`
 
 **Why Random Forest?**
-- Handles non-linear relationships
-- Robust to noise and outliers
-- Performs well on mixed feature types
-
-**Output file:**
-- `regression_output.csv`
+- Handles non-linear patterns well
+- Robust to noise/outliers
+- Works well with mixed feature types
 
 ---
 
-### 2️⃣ Risk Classification
+### 2) Risk Classification (Low / Medium / High)
+- **Goal:** Turn AI impact into simple, interpretable risk categories.
+- **Model:** Random Forest Classifier
 
-**Model:** Random Forest Classifier  
-**Goal:** Convert predicted AI impact into interpretable risk categories
+Risk thresholds:
 
-| AI Impact (%) | Risk Category |
-|--------------:|--------------|
-| 0–50          | Low          |
-| 50–70         | Medium       |
-| 70–100        | High         |
+| AI Impact (%) | Risk |
+|---:|---|
+| 0–50 | Low |
+| 50–70 | Medium |
+| 70–100 | High |
 
-**Output file:**
-- `final_risk_predictions.csv`
+- **Saved to:** `final_risk_predictions.csv`
+- Key columns: `Risk_Category` (label), `Model_Prediction` (classifier output)
 
 ---
 
-### 3️⃣ Hybrid Job Recommendation System
+### 3) Job Resilience Index (Interpretability Layer)
+A resilience metric is computed from model impact:
 
-**Goal:** Recommend safer alternatives for **high-risk** jobs.
+**Job_Resilience_Score = 100 − Model_AI_Impact**
 
-Only **Low** and **Medium** risk jobs are suggested as alternatives.
+Resilience interpretation:
 
-Hybrid similarity combines:
+| Score Range | Meaning |
+|---:|---|
+| 0–40 | Low Resilience |
+| 40–70 | Medium Resilience |
+| 70–100 | High Resilience |
+
+- **Saved to:** `job_model_resilience_index.csv`
+
+---
+
+### 4) Hybrid Recommendation System (Safer Alternatives)
+- **Goal:** For **High-risk** jobs, recommend **similar but safer** jobs.
+- Only **Low/Medium risk** jobs are recommended.
+
+Hybrid similarity is computed as:
 
 | Component | Method | Weight |
-|----------|--------|:------:|
-| Job title semantics | Sentence-BERT (MiniLM) | 0.45 |
+|---|---|---:|
+| Job title meaning | Sentence-BERT (MiniLM) | 0.45 |
 | Domain similarity | One-hot + cosine similarity | 0.35 |
 | Workload similarity | Scaled numeric cosine similarity | 0.20 |
 
-**Output file:**
-- `final_hybrid_recommendations.csv`
+- **Saved to:** `final_hybrid_recommendations.csv`
+- Columns: `High_Risk_Job`, `Alternative_Job`, `Similarity`, etc.
 
 ---
 
-### 4️⃣ Job Resilience Index
+## 📊 Evaluation & Visuals
 
-A final, interpretable metric is computed:
+Regression evaluation:
+- MAE, RMSE, R²
 
-**Job Resilience Score = 100 − Model_AI_Impact**
+Classification evaluation:
+- Accuracy, Precision, Recall, F1-score
 
-| Score Range | Interpretation |
-|------------:|----------------|
-| 0–40        | Low Resilience |
-| 40–70       | Medium Resilience |
-| 70–100      | High Resilience |
-
-**Output file:**
-- `job_model_resilience_index.csv`
-
----
-
-## 📊 Model Results & Evaluation
-
-### Regression Metrics
-The AI Impact prediction model is evaluated using:
-- **MAE (Mean Absolute Error)**
-- **RMSE (Root Mean Squared Error)**
-- **R² Score (Coefficient of Determination)**
-
-### Classification Metrics
-The job risk classification model is evaluated using:
-- **Accuracy**
-- **Precision**
-- **Recall**
-- **F1-score**
-
----
-
-## 🖼 Visualizations (Included)
-
-The repository includes the following generated visuals:
-
-- **Actual vs Predicted AI Impact** (`Actual vs Predicted.png`)
-- **Job Resilience Score Distribution** (`Resilience Distribution.png`)
-- **Top-10 Most AI-Resilient Jobs** (`Top-10 Resilient Jobs.png`)
-
-
+Included visual outputs:
+- **Actual vs Predicted AI Impact**
+- **Resilience Score Distribution**
+- **Top-10 Most AI-Resilient Jobs**

@@ -11,7 +11,7 @@ This repository contains an end-to-end machine learning workflow that estimates 
 
 ---
 
-## 📦 What’s Inside (Outputs You Get)
+## 📦 What’s Inside 
 
 | File | What it contains |
 |---|---|
@@ -31,7 +31,7 @@ Presentation:
 
 ---
 
-## 🗂️ Dataset (Verified)
+## 🗂️ Dataset 
 
 ✅ The main dataset file is **`My_Data.csv`**.
 

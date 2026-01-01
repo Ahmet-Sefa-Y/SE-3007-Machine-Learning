@@ -170,9 +170,4 @@ The repository includes the following generated visuals:
 - **Job Resilience Score Distribution** (`Resilience Distribution.png`)
 - **Top-10 Most AI-Resilient Jobs** (`Top-10 Resilient Jobs.png`)
 
-Embed them in GitHub like this:
 
-```md
-![Actual vs Predicted](Actual%20vs%20Predicted.png)
-![Resilience Distribution](Resilience%20Distribution.png)
-![Top-10 Resilient Jobs](Top-10%20Resilient%20Jobs.png)
